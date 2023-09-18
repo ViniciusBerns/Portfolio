@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Merriweather:wght@400;700&display=swap');
 
 
 * {
@@ -24,6 +24,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 10% 15%;
 }
 
 img {
@@ -33,6 +34,9 @@ img {
 
 .conteudo_principal {
     width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .conteudo_principal_titulo {
@@ -45,4 +49,24 @@ img {
     font-size: 24px;
     margin-top: 20px;
     font-family: 'Merriweather', serif;
+}
+
+.conteudo_principal_links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.conteudo_principal_botao {
+    background-color: #DF9A57;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 16px 0;
+    gap: 16px;
+    text-decoration: none;
+    color: #0D1F22;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
 }
