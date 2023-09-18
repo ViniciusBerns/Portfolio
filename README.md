@@ -1,2 +1,2 @@
 # Portfolio
-Portfólio pessoal com HTML e CSS
+Portfólio pessoal feito a partir dos cursos de HTML e CSS básico da Alura
