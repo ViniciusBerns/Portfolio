@@ -77,6 +77,14 @@ img {
     color: #f6f6f6;
     font-family: 'Merriweather', serif;
     font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo_principal_botao img {
+    height: 24px;
+    width: auto;
 }
 
 
