@@ -16,7 +16,7 @@ body {
 }
 
 .stng-white {
-    color: #FFFFFF;
+    color: #f6f6f6;
 }
 
 .container {
@@ -53,20 +53,32 @@ img {
 
 .conteudo_principal_links {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-between;
     margin-top: 5%;
+    gap: 32px;
+}
+
+.conteudo_principal_links_subtitulo {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
 }
 
 .conteudo_principal_botao {
-    background-color: #DF9A57;
-    width: 280px;
+    border: 2px solid #DF9A57;
+    width: 350px;
     text-align: center;
-    border-radius: 16px;
+    border-radius: 8px;
     font-size: 24px;
     padding: 16px 0;
     gap: 16px;
     text-decoration: none;
-    color: #0D1F22;
+    color: #f6f6f6;
     font-family: 'Merriweather', serif;
     font-weight: 700;
 }
+
+
+
+/* #DF9A57; */
