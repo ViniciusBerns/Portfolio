@@ -131,3 +131,7 @@ img {
     font-family: var(--fonte-secundaria);
     font-size: 12px;
 }
+
+.sobre {
+    padding: 4% 15% 6%
+}
