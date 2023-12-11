@@ -40,7 +40,7 @@ body {
 
 .cabecalho_menu_link{
     font-family: var(--fonte-secundaria);
-    font-size: 15px;
+    font-size: .94rem;
     color: var(--cor-secundaria);
     text-decoration: none;
 }
@@ -56,26 +56,22 @@ body {
     padding: 4% 15%;
 }
 
-img {
-    width: 30%;
-    height: auto;
-}
 
 .conteudo_principal {
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
 .conteudo_principal_titulo {
-    font-size: 36px;
+    font-size: 2.25rem;
     margin-bottom: 20px;
     font-family: var(--fonte-primaria);
 }
 
 .conteudo_principal_texto {
-    font-size: 24px;
+    font-size: 1.5rem;
     margin-top: 20px;
     font-family: var(--fonte-secundaria);
 }
@@ -91,15 +87,15 @@ img {
 
 .conteudo_principal_links_subtitulo {
     font-family: var(--fonte-primaria);
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .conteudo_principal_botao {
     border: 2px solid var(--cor-secundaria);
-    width: 350px;
+    width: 50%;
     text-align: center;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1.5rem;
     padding: 16px 0;
     gap: 16px;
     text-decoration: none;
@@ -122,6 +118,10 @@ img {
     transition-duration: .5s;
 }
 
+.conteudo_principal_imagem {
+    width: 30%;
+}
+
 
 .rodape {
     background-color: var(--cor-secundaria);
@@ -129,7 +129,7 @@ img {
     padding: 12px;
     text-align: center;
     font-family: var(--fonte-secundaria);
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 
 .sobre {
